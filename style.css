@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    
+}
+
+:root {
+    --bg-clr: #f5f5f5;
+    --blue-clr: #356BB4;
+    --red-clr: #c72f2f;
+    --black-clr: #000;
+    --white-clr: #ffff;
+    --light-black-clr: #272727;
+
+}
+
+.web-container {
+    background: wheat;
+    min-height: 100vh;
+    padding-inline: 25px;
+}
+
+header {
+    height: 13vh;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    font-size: 2.2rem;
+    color: blue;
+    font-family: "Great Vibes", cursive;
+    font-weight: 900;
+    letter-spacing: .2rem;
+}
+
+.navlink {
+    font-size: 1rem;
+    color: #000;
+}
+
+.hero-section {
+    height: calc(100vh - 13vh);
+    position: relative;
+
+}
+
+.content {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.content h1 {
+    font-size: 12rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    text-align: center;
+    color: var(--light-black-clr);
+}
+
+.bottom-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10rem;
+}
+
+.bottom-content button {
+    font-size: 1rem;
+    background: var(--light-black-clr);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    transition: transfrom .3s ease ease-in-out;
+}
+
+.bottom-content button:hover {
+    transform: scale(1 .08);
+}
+
+.bottom-content p span {
+    color: #c72f2f;
+    font-size: 1.1rem;
+    font-weight: 800;
+    padding-right: .5rem;
+}
+
+.bottom-content p {
+    max-width: 350px;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80%;
+    pointer-events: none;
+}
+
+.socil-icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: blue;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+.fa-brands{
+    color:white ;
+    font-size: 1.5rem;
+    margin-block: 1.5rem;
+}
